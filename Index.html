@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резервирование билетов в кинотеатр</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Бронирование билетов в кинотеатр</h1>
+        <label for="datePicker">Выберите дату:</label>
+        <input type="date" id="datePicker">
+        
+        <label for="sessionSelect">Выберите сеанс:</label>
+        <select id="sessionSelect"></select>
+
+        <div class="container" id="sessionMessage"></div>
+        <div id="seats" class="seats-container"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.seats-container {
+    margin-top: 20px;
+}
+
+.seat {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.available {
+    background-color: rgb(71, 241, 85); /* Свободные места */
+}
+
+.booked {
+    background-color: rgb(240, 252, 83); /* Забронированные места */
+    color: white;
+    cursor: not-allowed;
+}
+
+.archived {
+    background-color: rgb(236, 236, 236); /* Архивные места */
+    color: #888;
+    cursor: not-allowed;
+}
